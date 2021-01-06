@@ -2,7 +2,7 @@ package symmetricCipher
 
 import "testing"
 
-func TestSCEncryptString(t *testing.T) {
+func Test_SCEncryptString(t *testing.T) {
 	type args struct {
 		originalText string
 		key          string
@@ -59,7 +59,7 @@ func TestSCEncryptString(t *testing.T) {
 	}
 }
 
-func TestSCDecryptString(t *testing.T) {
+func Test_SCDecryptString(t *testing.T) {
 	type args struct {
 		chipherText string
 		key         string
